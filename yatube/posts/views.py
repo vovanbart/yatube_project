@@ -6,4 +6,4 @@ def index(request):
     return HttpResponse('Главная страница')
 
 def group_posts(request):
-    return HttpResponse('Посты')
+    return HttpResponse('Посты по группам')
